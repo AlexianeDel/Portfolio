@@ -1,0 +1,78 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.font{
+    background-color:rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #3DB67E;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+}
+
+.font:hover{
+    box-shadow: 0px 0px 50px #3DB67E;
+}
+
+.presentation {
+    margin: 50px 25px;
+}
+
+.presentation h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 25px;
+}
+
+.me img {
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pict {
+    max-width: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pict  a {
+    align-items: center;
+    margin: 10px;
+}
+
+.pict > a > img {
+    height: auto;
+    width: 50px;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.social-name {
+    font-size: 18px;
+    color: #fff;
+}
+
+.social-name:hover {
+    color: #3DB67E;
+}
