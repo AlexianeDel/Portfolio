@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 50px 10px 50px 10px;
+    margin: 0px 10px 50px 10px;
 }
 
 .skill {
@@ -22,7 +22,6 @@
 
 .skill:hover {
     transform: translateY(-10px);
-    color: #333;
     box-shadow: 0px 0px 20px #3DB67E;
 }
 
@@ -45,4 +44,5 @@ section {
 h2 {
     color: white;
     text-shadow: 5px 5px 2px #3DB67E;
+    margin-top: 0px;
 }

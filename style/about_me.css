@@ -6,7 +6,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 25px #3DB67E;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .font:hover{
@@ -43,5 +43,40 @@
     .font {
         display: flex;
         flex-direction: column-reverse;
+        margin: 0px auto 25px auto;
+        max-width: 80vw;
       }
+
+      .presentation {
+        margin: 10px 10px;
+    }
+    
+    .presentation h2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 10px 10px;
+    }
+    
+    .me img {
+        width: 80%;
+        height: auto;
+        object-fit: fill;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .me h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
 }
