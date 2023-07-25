@@ -46,3 +46,26 @@ h2 {
     text-shadow: 5px 5px 2px #3DB67E;
     margin-top: 0px;
 }
+
+@media (max-width: 600px) {
+    .skill-container {
+        margin: 0px 5px 25px 5px;
+        max-width: 80vw;
+    }
+    
+    .skill {
+        width: 100px;
+        margin: 10px 10px;
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .skill img {
+        width: 50px;
+        height: 50px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}

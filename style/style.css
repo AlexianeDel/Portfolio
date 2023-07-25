@@ -176,7 +176,7 @@ p {
 
   .pict > a > img {
     height: auto;
-    width: 20px;
+    width: 15px;
     margin-right: 5px;
   }
 
@@ -185,7 +185,7 @@ p {
   }
 
   .social-name {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   main {
@@ -205,6 +205,6 @@ p {
   }
 
   main p{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
