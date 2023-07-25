@@ -3,6 +3,10 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/backfont.png");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 body, ul {
@@ -69,10 +73,65 @@ body, ul {
   }
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  flex: 1;
+}
+
 h1 {
   text-align: center;
   margin: 25px;
   font-size: 50px;
   color: #fff;
+  text-shadow: 5px 5px 2px #3DB67E;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px 20px;
+  text-align: start;
+}
+
+footer h2 {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.pict {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.pict a {
+  align-items: end;
+  margin-right: 50px;
+}
+
+.pict > a > img {
+  height: auto;
+  width: 25px;
+  margin-right:5px ;
+}
+
+.social-icon {
+  display: flex;
+}
+
+.social-name {
+  font-size: 18px;
+  color: #fff;
+}
+
+.social-name:hover {
   text-shadow: 5px 5px 2px #3DB67E;
 }
