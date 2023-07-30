@@ -24,17 +24,58 @@
         </nav>
         <main>
             <h1>My Projects</h1>
-            <h2>This page is under construction please be patient.</h2>
+            <div class="content">
+                <div class="image-container" style="background-color: rgba(164, 120, 0, .5);">
+                    <img src="images/projects/Page_SCH.jpg" alt="Image à agrandir" onclick="showImagePopup('images/projects/Page_SCH.jpg', 0)">
+                    <div class="popup">
+                        <span class="close-btn" onclick="closeImagePopup(0)">Close</span>
+                        <img src="" alt="Image agrandie" class="popup-image">
+                    </div>
+                    <span>Sophie Chaignaud Harmonisation</span>
+                </div>
+                <div class="image-container" style="background-color: rgba(255, 199, 0, .5);">
+                    <img src="images/projects/Page_RIT.jpg" alt="Image à agrandir" onclick="showImagePopup('images/projects/Page_RIT.jpg', 1)">
+                    <div class="popup">
+                        <span class="close-btn" onclick="closeImagePopup(1)">Close</span>
+                        <img src="" alt="Image agrandie" class="popup-image">
+                    </div>
+                    <span>Room In Touch</span>
+                </div>
+                <div class="image-container" style="background-color: rgba(42, 113, 58, .5);">
+                    <img src="images/projects/Page_FiG.jpg" alt="Image à agrandir" onclick="showImagePopup('images/projects/Page_FiG.jpg', 2)">
+                    <div class="popup">
+                        <span class="close-btn" onclick="closeImagePopup(2)">Close</span>
+                        <img src="" alt="Image agrandie" class="popup-image">
+                    </div>
+                    <span>FiG</span>
+                </div>
+                <div class="image-container" style="background-color: rgba(49, 136, 97, .5);">
+                    <img src="images/projects/Page_AD.jpg" alt="Image à agrandir" onclick="showImagePopup('images/projects/Page_AD.jpg', 3)">
+                    <div class="popup">
+                        <span class="close-btn" onclick="closeImagePopup(3)">Close</span>
+                        <img src="" alt="Image agrandie" class="popup-image">
+                    </div>
+                    <span>Alexiane.D</span>
+                </div>
+                <div class="image-container" style="background-color: rgba(54, 65, 86, .5);">
+                    <img src="images/projects/Page_H4S.jpg" alt="Image à agrandir" onclick="showImagePopup('images/projects/Page_H4S.jpg', 4)">
+                    <div class="popup">
+                        <span class="close-btn" onclick="closeImagePopup(4)">Close</span>
+                        <img src="" alt="Image agrandie" class="popup-image">
+                    </div>
+                    <span>Hotel - Restaurant Les 4 Salines</span>
+                </div>
+            </div>
         </main>
         <footer>
             <h2>Contact</h2>
             <div class="pict">
-              <a href="mailto:adcontact0133@gmail.com">
-                <img src="images/logo/letter.png" alt="Email">
+              <a href="mailto:adcontact0133@gmail.com" class="social-icon">
+                <img src="images/logo/mail_by_me.png" alt="Email">
                 <span class="social-name">adcontact0133@gmail.com</span>
               </a>
               <a href="https://www.linkedin.com/in/alexiane-deliat-47b9271a6/" target="_blank" class="social-icon">
-                  <img src="images/logo/LinkedIn.png" alt="Linkedin">
+                  <img src="images/logo/linkedin_by_me.png" alt="Linkedin">
                   <span class="social-name">LinkedIn</span>
               </a>
               <a href="documents/CV_Infographiste-AlexianeDELIAT.pdf" target="_blank" class="social-icon">
@@ -42,6 +83,7 @@
                   <span class="social-name">Download my resume</span>
               </a>
             </div>
-          </footer>
+        </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
